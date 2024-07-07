@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <!-- Preload Images -->
+    <link rel="preload" href="pexels-frendsmans-1926769.jpg" as="image">
+    <link rel="preload" href="ts.jpg" as="image">
+    
+    
+</head>
+<body>
+    <div class="main-container">
+        <div class="login-section">
+            <div>
+                <h3>Sign In with Cut2Fit <span>It’s free!</span></h3>
+                <form action="/login" method="post" class="cutting-effect">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <p><a href="resetPassword" class="forgot-pw">Forgot password?</a></p>
+                    <button type="submit">Sign In</button>
+                </form>
+                <p>Don't have an account? <a href="/signup" class="sign-up">Sign Up</a></p>
+            </div>
+        </div>
+        <div class="image-wrapper">
+            <img src="/mediafile/pexels-frendsmans-1926769.jpg" alt="First Image" class="front">
+            <img src="/mediafile/ts.jpg" alt="Second Image" class="back">
+        </div>
+    </div>
+</body>
+</html>

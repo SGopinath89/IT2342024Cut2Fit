@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/stylesheets/home.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+   
+</head>  
+<body>
+    <!-- header section starts -->
+    <header>
+        <input type="checkbox" name="name" id="toggler" >
+        <label for="toggler" class="fas fa-bars"></label> 
+
+        <a href="#" class="logo">Cut2Fit<span>.</span></a>
+    
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">About</a>
+            <a href="#library">Library</a>
+            <a href="#blogs">blogs</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Search...">
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+        </div>
+        <div class="icons">
+
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user" onclick="window.location.href='/profile'"></a>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section start  -->
+    <section class="home" id="home">
+    <div class="content">
+        <h3>Welcome! </h3>
+        <span>Let's start creating your dream wardrobe.</span>
+        <p>Discover the joy of bespoke fashion tailored just for you. Say goodbye to the frustration of ill-fitting clothes. With Cut2Fit, every stitch is crafted to perfectly cut, ensuring you look and feel your best, every time. Plus, showcase your new library and creativity to the world with our unique platform.
+        </p>
+            <a href="#" class="btn">Start Now</a>
+    </div>
+    <div class="container">
+        <img src="/mediafile/apparel.png" alt="Right Side Image" class="right-image">
+    </div>
+    </section>
+    <!-- home section ends  -->
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span>us</h1>
+        <div class="row">
+            <div class="video-container">
+                <img src="/mediafile/giphy.gif" loop autoplay muted></img>
+                <h3>Cut2Fit</h3>
+            </div>
+
+            <div class="content">
+                <h3>why Cut2Fit?</h3>
+                <p>Cut2Fit, where fashion meets innovation! 
+                We understand the frustration of finding that perfect fit in off-the-rack clothing. 
+                That's why we've created a revolutionary web-based application that empowers you to unleash your creativity. 
+                In the process of dressmaking, translating your design into precise measurements for cutting and stitching is the challenging part. 
+                But Cut2Fit allows you to bring your design to life effortlessly by just drawing, providing you with meticulously generated measurements tailored to your input design. 
+                Say goodbye to the guesswork and frustration of traditional dressmaking. 
+                Experience the future of dressmaking with Cut2Fit today!
+
+                </p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends  -->
+
+
+<!-- library section starts  -->
+
+<section class="library" id="library">
+<h1 class="heading">explore <span>library</span></h1>
+<div class="box-container">
+    <div class="box">
+        <div class="image">
+            <img src="product-1.jpg" alt="Product 1">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h3>Stylish Dress</h3>
+            <div class="price">$50 <span>$70</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="product-2.jpg" alt="Product 2">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h3>Casual T-Shirt</h3>
+            <div class="price">$25 <span>$35</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="product-3.jpg" alt="Product 3">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+        <div class="content">
+            <h3>Formal Suit</h3>
+            <div class="price">$120 <span>$150</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+    <button onclick="window.location.href='/library'" class="btn">Go to Library</button>
+</div>
+</section>
+
+<!-- library section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal" id="deal">
+<div class="content">
+    <h3>Special Offer</h3>
+    <p>Get up to 50% off on select items. Don't miss out on our exclusive deals. Shop now and elevate your style with Cut2Fit.</p>
+    <a href="#" class="btn">shop now</a>
+</div>
+<div class="image">
+    <img src="deal.png" alt="Special Offer">
+</div>
+</section>
+
+<!-- deal section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+<h1 class="heading">our <span>blogs</span></h1>
+<div class="box-container">
+    <div class="box">
+        <div class="image">
+            <img src="blog-1.jpg" alt="Blog 1">
+            <div class="date">01 Jan 2024</div>
+        </div>
+        <div class="content">
+            <h3>Fashion Trends 2024</h3>
+            <p>Explore the latest fashion trends and styles for 2024. Stay ahead of the curve with our expert insights and tips.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="blog-2.jpg" alt="Blog 2">
+            <div class="date">15 Feb 2024</div>
+        </div>
+        <div class="content">
+            <h3>Styling Tips</h3>
+            <p>Discover the best styling tips to enhance your wardrobe. Learn how to mix and match outfits like a pro.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="blog-3.jpg" alt="Blog 3">
+            <div class="date">28 Mar 2024</div>
+        </div>
+        <div class="content">
+            <h3>Seasonal Collection</h3>
+            <p>Check out our new seasonal collection and find the perfect pieces to update your style for the new season.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- blogs section ends -->
+
+<!-- review section stars  -->
+<section class="review" id="review">
+<h1 class="heading"> customer's <span>review</span></h1>
+<div class="box-container">
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Sit impedit debitis consequuntur ad, reiciendis ullam molestiae
+            saepe iusto, distinctio quasi nostrum quam maxime cumque vero quas 
+            perspiciatis alias illum dignissimos.
+        </p>
+        <div class="user">
+            <img src="2150787716.jpg" alt="user">
+            <div class="user-info">
+                <h3>john deo</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Sit impedit debitis consequuntur ad, reiciendis ullam molestiae
+            saepe iusto, distinctio quasi nostrum quam maxime cumque vero quas 
+            perspiciatis alias illum dignissimos.
+        </p>
+        <div class="user">
+            <img src="2150787716.jpg" alt="user">
+            <div class="user-info">
+                <h3>john deo</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Sit impedit debitis consequuntur ad, reiciendis ullam molestiae
+            saepe iusto, distinctio quasi nostrum quam maxime cumque vero quas 
+            perspiciatis alias illum dignissimos.
+        </p>
+        <div class="user">
+            <img src="2150787716.jpg" alt="user">
+            <div class="user-info">
+                <h3>john deo</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+</div>
+</section> 
+<!-- review section ends   -->
+
+<!-- contact section starts  -->
+<section class="contact" id="contact">
+<h1 class="heading">
+    <div class="row">
+        <form action="">
+            <input type="text" placeholder="Name" class="box">
+            <input type="email" placeholder="E-mail" class="box">
+            <input type="number" placeholder="Rating" class="box">
+            <textarea name="" class="box" placeholder="Messsage" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send messsage" class="btn">
+        </form>
+
+        <div class="image">
+            <img src="reviewimg.jpg" alt="contact">
+        </div>
+    </div>
+</h1>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+<div class="box-container">
+    <div class="box">
+        <h3>quick links</h3>
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#library">library</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+    </div>
+    <div class="box">
+        <h3>extra links</h3>
+        <a onclick="window.location.href='/profile'">my account</a>
+        <a onclick="window.location.href='/library'">my library</a>
+        <a href="#">terms of use</a>
+        <a href="#">privacy policy</a>
+    </div>
+    <div class="box">
+        <h3>contact info</h3>
+        <p> <i class="fas fa-phone"></i> +94662230565 </p>
+        <p> <i class="fas fa-envelope"></i> support@cut2fit.com </p>
+        <p> <i class="fas fa-map-marker-alt"></i> 101, F2 Street, Kandy, Sri Lanka </p>
+    </div>
+    <div class="box">
+        <h3>follow us</h3>
+        <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+        <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+        <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+        <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+    </div>
+</div>
+<div class="credit"> &copy; 2024 <span>Cut2Fit</span>. All rights reserved. </div>
+</section>
+
+<!-- footer section ends -->
+
+<script>
+document.getElementById('toggler').onclick = () => {
+    document.querySelector('.navbar').classList.toggle('active');
+}
+</script>
+
+</body>
+</html>

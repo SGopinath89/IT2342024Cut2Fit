@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Cut2Fit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/stylesheets/profile.css">
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <a href="#" class="logo">Cut2Fit<span>.</span></a>
+            <nav class="navbar">
+            
+                <a href="#orders">Orders</a>
+                <a href="#designs">Designs</a>
+                <a href="#favorites">Favorites</a>
+                <a href="#settings">Settings</a>
+            </nav>
+            
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Search...">
+                    <button type="submit" class="fas fa-search"></button>
+                </form>
+            </div>
+
+            <div class="icons">
+               
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-home" onclick="window.location.href='/home'"></a>
+            </div>
+
+        </header>
+
+        <!-- Profile Section -->
+        <section class="profile" id="profile">
+            <div class="profile-header">
+                <img src="path/to/profile-picture.jpg" alt="User Photo" class="profile-pic">
+                <h1 class="username">John Doe</h1>
+                <p class="bio">Fashion enthusiast and designer. Love creating unique and custom-made dresses.</p>
+            </div>
+            <div class="profile-details">
+                <div class="detail">
+                    <i class="fas fa-envelope"></i>
+                    <span>john.doe@example.com</span>
+                </div>
+                <div class="detail">
+                    <i class="fas fa-phone"></i>
+                    <span>+123-456-7890</span>
+                </div>
+                <div class="detail">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>New York, USA</span>
+                </div>
+                <div class="detail">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Member since: January 2023</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Orders Section -->
+        <section class="orders" id="orders">
+            <h2>My Orders</h2>
+            <ul class="order-list">
+                <li class="order-item">
+                    <span>Order #12345</span>
+                    <span>Status: Delivered</span>
+                    <span>Date: May 1, 2023</span>
+                </li>
+                <li class="order-item">
+                    <span>Order #67890</span>
+                    <span>Status: In Progress</span>
+                    <span>Date: May 10, 2023</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Designs Section -->
+        <section class="designs" id="designs">
+            <h2>My Designs</h2>
+            <div class="design-grid">
+                <div class="design-item">
+                    <img src="path/to/design1.jpg" alt="Design 1">
+                    <h3>Evening Gown</h3>
+                </div>
+                <div class="design-item">
+                    <img src="path/to/design2.jpg" alt="Design 2">
+                    <h3>Summer Dress</h3>
+                </div>
+                <!-- Add more design items as needed -->
+            </div>
+        </section>
+
+        <!-- Favorites Section -->
+        <section class="favorites" id="favorites">
+            <h2>Favorites</h2>
+            <div class="favorites-grid">
+                <div class="favorite-item">
+                    <img src="path/to/favorite1.jpg" alt="Favorite 1">
+                    <h3>Boho Chic Dress</h3>
+                </div>
+                <div class="favorite-item">
+                    <img src="path/to/favorite2.jpg" alt="Favorite 2">
+                    <h3>Classic Blazer</h3>
+                </div>
+                <!-- Add more favorite items as needed -->
+            </div>
+        </section>
+
+        <!-- Settings Section -->
+        <section class="settings" id="settings">
+            <h2>Settings</h2>
+            <form action="/profile" method="POST" class="settings-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" value="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" value="john.doe@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" value="+123-456-7890">
+                </div>
+                <div class="form-group">
+                    <label for="bio">Bio</label>
+                    <textarea id="bio" name="bio">Fashion enthusiast and designer. Love creating unique and custom-made dresses.</textarea>
+                </div>
+                <button type="submit" class="btn">Save Changes</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
