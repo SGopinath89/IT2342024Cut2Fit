@@ -40,6 +40,10 @@ app.get("/library",(req,res)=>{
 app.get("/profile",(req,res)=>{
     res.render("profile");
 });
+app.get("/blog-main/client/src/index.js",(req,res)=>{
+    res.render("blog-main");
+});
+
 
 //Register user
 app.post("/signup",async(req,res)=>{
