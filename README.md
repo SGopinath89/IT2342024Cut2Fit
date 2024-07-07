@@ -1,4 +1,4 @@
-#Cut2Fit
+Cut2Fit
 
 This Fashion & Apparel Application is tailored to make a change in an enhanced way of handling and getting involved in Apparel Industry. 
 As many people who are very much talented in tailoring (stitching) garments lack a platform to showcase their potential. 
