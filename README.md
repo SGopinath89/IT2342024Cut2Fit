@@ -7,9 +7,10 @@ Therefore, this ONGOING PROJECT stimulates the industry by bringing a new diment
 NOTE: I'm on the process of developing the perfect Algorith for my important feature of this App. 
 Therefore I have added the code snippets, while on process. GenAI File is not completed. So it may cause some bugs while running the complete Application.
 This complete new idea of an app is a bit challenging and have so many complicated blocks of codes compiled together. Hope to finish it soon!
+
 Technologies Used: 
 
-MERN, CSS, EJS, HTML, TailwindCSS, JavaScript, Vite, Firebase
+MERN, CSS, EJS, HTML, TailwindCSS, JavaScript, Vite, Firebase, OpenAI API
 
 Unique features:
 
