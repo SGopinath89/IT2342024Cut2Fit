@@ -19,6 +19,9 @@ Unique features:
   Library for Fahion Collection
 
   Feedback and Connect
+
+NOTE: I'm on the process of developing the perfect Algorith for my important feature of this App. 
+Therefore I have added the code snippets, while on process. GenAI File is not completed.
   
   #Look forward for more improvements, additional features and No bugs!
   
