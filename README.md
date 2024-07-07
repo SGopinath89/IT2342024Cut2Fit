@@ -6,7 +6,7 @@ Therefore, this ONGOING PROJECT stimulates the industry by bringing a new diment
 
 Technologies Used: 
 
-MERN, CSS, EJS, TailwindCSS, JavaScript
+MERN, CSS, EJS, TailwindCSS, JavaScript, Vite
 
 Unique features:
 
