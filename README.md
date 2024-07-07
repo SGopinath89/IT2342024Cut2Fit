@@ -15,7 +15,7 @@ MERN, CSS, EJS, HTML, TailwindCSS, JavaScript, Vite, Firebase, OpenAI API
 Unique features:
 
   Image to Text Generator (Building Ongoing), User Login, SignUp, Profile, Blogging, 
-  Library for Fahion Collection, Feedback and Connect
+  Library for Fahion Collection, Feedback and Connect, Shop
   
   #Look forward for more improvements, additional features and No bugs!
   
