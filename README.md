@@ -16,6 +16,8 @@ Unique features:
 
   Image to Text Generator (Building Ongoing), User Login, SignUp, Profile, Blogging, 
   Library for Fahion Collection, Feedback and Connect, Shop
+
+  localhost:3000
   
   #Look forward for more improvements, additional features and No bugs!
   
